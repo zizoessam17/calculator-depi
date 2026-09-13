@@ -7,7 +7,7 @@ const display = document.querySelector('input');
 
 
 
-// Loop through each button and add a click event listener
+
 buttons.forEach(button => {
     button.addEventListener('click', () => {
         
