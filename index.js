@@ -14,12 +14,10 @@ buttons.forEach(button => {
         var value = button.textContent;
         
         if (value === 'C') {
-            clearDisplay();
+            display.value = '';
             return;
         }
-function clearDisplay() {
-    display.value = '';
-}
+
 
         display.value += value;
     });
